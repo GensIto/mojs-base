@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+
+#app {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #5f2d38;
+  overflow: hidden;
+}
+
+#bouncyCircle {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #9983bb;
+  overflow: hidden;
+}
+
+#spinner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #82a7a5;
+  overflow: hidden;
+}
+
+#delta {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #53745f;
+  overflow: hidden;
+}
+
+#triangle {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #e2e872;
+  overflow: hidden;
+}
+
+#then {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #feb16e;
+  overflow: hidden;
+}
+
+#newdeltainthen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff4f4;
+  overflow: hidden;
+}
+
+#heart {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #d7b2bc;
+  overflow: hidden;
+}
+
+#threeHearts {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #b0addc;
+  overflow: hidden;
+}
+
+#drawHeart {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #525954;
+  overflow: hidden;
+}
+
+#bound {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #7a83e6;
+  overflow: hidden;
+}
+
+
+svg {
+  /*
+  Bounce系のアニメーションを付けると、素の状態だとはみ出した分が見切れてしまいます。
+  CSSで以下の指定をしておきましょう。 */
+  overflow: visible;
+}
